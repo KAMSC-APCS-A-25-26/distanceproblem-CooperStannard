@@ -32,8 +32,27 @@ import java.util.Scanner;
 
 public class DistanceMultiple {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        sc.useDelimiter("[(),\\s]+");
 
+        // Signature
+        System.out.println("Cooper Stannard\nAPCS-A\n2.8\n\n");
 
+        //Asks for number of runs
+        System.out.print("Enter number of runs:  ");
+        double numruns = sc.nextDouble();
+        for (int k = 0; k < numruns; k++) {
+            //Reads in all numbers
+            System.out.print("\nEnter two coordinates:  ");
+            double xCord1 = sc.nextDouble();
+            double yCord1 = sc.nextDouble();
+            double xCord2 = sc.nextDouble();
+            double yCord2 = sc.nextDouble();
+
+            // Calculates the distance formula and prints the number
+            double distance = Math.pow(Math.pow(xCord1 - xCord2, 2) + Math.pow(yCord1 - yCord2, 2), 1.0 / 2);
+            System.out.println("The distance is " + distance);
+
+        }
     }
-
 }
