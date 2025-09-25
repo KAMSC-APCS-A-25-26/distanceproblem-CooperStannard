@@ -51,7 +51,7 @@ public class DistanceMultiple {
 
             // Calculates the distance formula and prints the number
             double distance = Math.pow(Math.pow(xCord1 - xCord2, 2) + Math.pow(yCord1 - yCord2, 2), 1.0 / 2);
-            System.out.println("The distance is " + distance);
+            System.out.println("This distance is " + distance);
 
         }
     }
