@@ -43,7 +43,7 @@ public class DistanceMultiple
         System.out.print("Enter number of runs:  ");
         int numruns = sc.nextInt();
 
-        for (int k = 0; k < numruns; k++)
+        for (int k = 0; k <= numruns; k++)
         {
             System.out.print("\nEnter two coordinates:  ");
             xCord1 = sc.nextDouble();
