@@ -33,7 +33,7 @@ import java.util.Scanner;
 public class DistanceMultiple {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        sc.useDelimiter("[(),\\s]+");
+        sc.useDelimiter("[()xy,\\s]+");
 
         // Signature
         System.out.println("Cooper Stannard\nAPCS-A\n2.8\n\n");
