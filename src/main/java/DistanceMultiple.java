@@ -37,8 +37,6 @@ public class DistanceMultiple
         Scanner sc = new Scanner(System.in);
 
         double xCord1, xCord2, yCord1, yCord2, distance;
-        // Signature
-        System.out.println("Cooper Stannard\nAPCS-A\n2.8\n");
 
         System.out.print("Enter number of runs:  ");
         int numruns = sc.nextInt();
@@ -55,6 +53,8 @@ public class DistanceMultiple
             // Calculates the distance formula and prints the number
             distance = Math.pow(Math.pow(xCord1 - xCord2, 2) + Math.pow(yCord1 - yCord2, 2), 1.0 / 2);
             System.out.println("The distance is " + distance);
+            System.out.println();
+            System.out.println();
         }
     }
 }
